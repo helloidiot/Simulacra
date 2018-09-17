@@ -1,6 +1,6 @@
-# Project Title
+# Simulacra
 
-One Paragraph of project description goes here
+MA Computational Art final project.
 
 ## Getting Started
 
@@ -72,16 +72,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Lior Ben-Gai** - *Initial boilerplate*
+* **Joseph Rodrigues Marsh** - *Development*
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Lior Ben Gai for the initial boilerplate
+* Etienne Jacob for the looping simplex noise algorithm
+* Daniel Shiffman for meshing 3D spherical geometry

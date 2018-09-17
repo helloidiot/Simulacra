@@ -2,6 +2,8 @@
 
 MA Computational Art final project 2018.
 
+Simulacra is a series of procedurally generated digital artefacts which aestheticise the body through fleshy materials and intestinal textures. By exploring the human connection with the soft and somatic, Simulacra embraces the grotesque, where once rigid non-human forms bulge and undulate in seamless and satisfyingly endless loops. 
+
 ## Getting Started
 
 ### simulacraMaster
@@ -48,13 +50,13 @@ Play with the GUI controls in order to create interesting behaviours
 
 ## Running simulacraViewer
 
-The video file to be played should be placed in;
+The video file to be looped should be placed in;
 
 ```
-/data/movies
+/data/movies/
 ```
 
-This can be changed in ofApp.h if desired.
+This path can be changed in ofApp.h if desired.
 
 
 The Raspberry Pi can be configured to run the app on startup by adding the app’s path to the Pi’s config file, for example;

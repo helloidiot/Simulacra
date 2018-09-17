@@ -43,7 +43,7 @@ hyperbolic = true;
 Select an update function in the Vert class by uncommenting the function desired.
 
 ```
-// position = PVector.add(initPosition, getSimplexMod(i) );
+position = PVector.add(initPosition, getSimplexMod(i) );
 ```
 
 Play with the GUI controls in order to create interesting behaviours

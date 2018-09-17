@@ -34,13 +34,13 @@ An openFrameworks app for autonomously presenting the rendered works in an exhib
  
 ## Running simulacraMaster
 
-First select a shape to create in setup() by setting the corresponding boolean to 'true'
+First select a shape to create in setup() by setting the corresponding boolean to 'true’. For example;
 
 ```
 hyperbolic = true;
 ```
 
-Select an update function in the Vert class by uncommenting the function desired.
+Choose a single update function in the Vert class by uncommenting the function desired;
 
 ```
 position = PVector.add(initPosition, getSimplexMod(i) );
@@ -81,5 +81,6 @@ Feel free to reach out if you are interested in contributing.
 ## Acknowledgments
 
 * Lior Ben Gai for the initial boilerplate
-* Etienne Jacob for the looping simplex noise algorithm
-* Daniel Shiffman for meshing 3D spherical geometry
+* Theo Papatheodorou
+* Etienne Jacob for the [looping simplex noise algorithm](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/)
+* Daniel Shiffman for meshing 3D [spherical geometries](https://www.youtube.com/watch?v=m8WhMeW8jj0)

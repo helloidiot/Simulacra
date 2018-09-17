@@ -62,22 +62,19 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Processing](https://processing.org/) - Used for simulacraMaster
+* [openFrameworks](https://openframeworks.cc/) - Used for simulacraViewer
+* [Blender](https://www.blender.org/) - Used to render the OBJ sequences
+* [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ) - For importing OBJ sequences into Blender
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Feel free to reach out if you are interested in contributing.
 
 ## Authors
 
 * **Lior Ben-Gai** - *Initial boilerplate*
-* **Joseph Rodrigues Marsh** - *Development*
+* **Joseph Rodrigues Marsh** - *Ongoing development*
 
 ## Acknowledgments
 

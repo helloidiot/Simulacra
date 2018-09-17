@@ -19,11 +19,12 @@ For ‘simulacraViewer’, copy the contents of ofApp.h, ofApp.cpp and Main.h in
 * [Nervous System OBJ Exporter](https://n-e-r-v-o-u-s.com/tools/obj/) - For exporting OBJ sequences
 * [Toxiclibs](http://toxiclibs.org/2010/02/simutils-grayscott/) - Reaction diffusion algorithm.
 
-###simulacraViewer
+### simulacraViewer
 
-* [openFrameworks](https://openframeworks.cc/) - Used to build simulacraViewer
+* [openFrameworks 0.9.8](https://openframeworks.cc/) - Used to build simulacraViewer
 * [ofxOMXPlayer](https://github.com/jvcleave/ofxOMXPlayer) - For smoothly playing back video on Raspberry Pi
-
+* [Raspberry Pi](https://www.raspberrypi.org/) - Allows for autonomous playback during installation
+ 
 ## Running simulacraMaster
 
 First select a shape to create in setup() by setting the corresponding boolean to 'true'
@@ -40,25 +41,23 @@ Select an update function in the Vert class by uncommenting the function desired
 
 Play with the GUI controls in order to create interesting behaviours
 
-### Break down into end to end tests
+## Running simulacraViewer
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+The video file should be placed in
 
 ```
-Give an example
+data/movies
 ```
 
-## Deployment
+This can be changed in ofApp.h if desired.
 
-Add additional notes about how to deploy this on a live system
+
+The Raspberry Pi can be configured to run the app on startup by adding the app’s path to the Pi’s config file, for example;
+
+```
+cd openFrameworks/apps/myApps/simulacraViewer
+make RunRelease
+```
 
 
 

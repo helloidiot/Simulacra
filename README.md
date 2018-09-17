@@ -19,12 +19,12 @@ An openFrameworks app for autonomously presenting the rendered works in an exhib
 ### simulacraMaster
 
 * [Processing](https://processing.org/) - Used for simulacraMaster
-* [Blender](https://www.blender.org/) - Used to render the OBJ sequences
-* [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ) - For importing OBJ sequences into Blender
 * [peasyCam](http://mrfeinberg.com/peasycam/) - To be able to manipulate the camera
 * [controlP5](http://www.sojamo.de/libraries/controlP5/) - For GUI control
 * [Nervous System OBJ Exporter](https://n-e-r-v-o-u-s.com/tools/obj/) - For exporting OBJ sequences
 * [Toxiclibs](http://toxiclibs.org/2010/02/simutils-grayscott/) - Reaction diffusion algorithm.
+* [Blender](https://www.blender.org/) - Used to render the OBJ sequences
+* [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ) - For importing OBJ sequences into Blender
 
 ### simulacraViewer
 
@@ -66,6 +66,7 @@ cd openFrameworks/apps/myApps/simulacraViewer
 make RunRelease
 ```
 
+Note this will not compile in OSX.
 
 
 ## Contributing

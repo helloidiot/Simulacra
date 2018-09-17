@@ -19,6 +19,7 @@ An openFrameworks app for autonomously presenting the rendered works in an exhib
 ### simulacraMaster
 
 * [Processing](https://processing.org/) - Used for simulacraMaster
+* [openSimplexNoise](https://gist.github.com/KdotJPG/b1270127455a94ac5d19) - Java implementation of 4D Simplex Noise
 * [peasyCam](http://mrfeinberg.com/peasycam/) - To be able to manipulate the camera
 * [controlP5](http://www.sojamo.de/libraries/controlP5/) - For GUI control
 * [Nervous System OBJ Exporter](https://n-e-r-v-o-u-s.com/tools/obj/) - For exporting OBJ sequences

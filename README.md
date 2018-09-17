@@ -1,11 +1,16 @@
 # Simulacra
 
-MA Computational Art final project.
+MA Computational Art final project 2018.
 
 ## Getting Started
 
-For ‘simulacraMaster’, simply place the folder in your Processing working folder and build.
-For ‘simulacraViewer’, copy the contents of ofApp.h, ofApp.cpp and Main.h into a new project. 
+### simulacraMaster
+
+A Processing sketch to playfully create looping 3D animations with simplex noise. Simply place the folder in your Processing working folder and build.
+
+### simulacraViewer
+
+An openFrameworks app for autonomously presenting the rendered works in an exhibition environment via Raspberry Pi. To run, make sure the openFrameworks examples compile correctly on the Pi, then simply copy the contents of ofApp.h, ofApp.cpp and Main.h into a new project. 
 
 ## Dependencies
 
@@ -43,10 +48,10 @@ Play with the GUI controls in order to create interesting behaviours
 
 ## Running simulacraViewer
 
-The video file should be placed in
+The video file to be played should be placed in;
 
 ```
-data/movies
+/data/movies
 ```
 
 This can be changed in ofApp.h if desired.

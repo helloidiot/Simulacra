@@ -49,6 +49,8 @@ position = PVector.add(initPosition, getSimplexMod(i) );
 
 Play with the GUI controls in order to create interesting behaviours
 
+See comments for more detailed instruction
+
 ## Running simulacraViewer
 
 The video file to be looped should be placed in;
@@ -66,6 +68,8 @@ The Raspberry Pi can be configured to run the app on startup by adding the appâ€
 cd openFrameworks/apps/myApps/simulacraViewer
 make RunRelease
 ```
+
+See comments for more detailed instruction
 
 Note this will not compile in OSX.
 

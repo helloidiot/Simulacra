@@ -7,22 +7,22 @@ MA Computational Art final project.
 For ‘simulacraMaster’, simply place the folder in your Processing working folder and build.
 For ‘simulacraViewer’, copy the contents of ofApp.h, ofApp.cpp and Main.h into a new project. 
 
-### Prerequisites
+## Dependencies
 
-simulacraMaster;
+### simulacraMaster
 
-```
-peasyCam
-controlP5
-Nervous System OBJ Exporter
-Toxiclibs Grey Scott
-```
+* [Processing](https://processing.org/) - Used for simulacraMaster
+* [Blender](https://www.blender.org/) - Used to render the OBJ sequences
+* [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ) - For importing OBJ sequences into Blender
+* [peasyCam](http://mrfeinberg.com/peasycam/) - To be able to manipulate the camera
+* [controlP5](http://www.sojamo.de/libraries/controlP5/) - For GUI control
+* [Nervous System OBJ Exporter](https://n-e-r-v-o-u-s.com/tools/obj/) - For exporting OBJ sequences
+* [Toxiclibs](http://toxiclibs.org/2010/02/simutils-grayscott/) - Reaction diffusion algorithm.
 
-simulacraViewer;
+###simulacraViewer
 
-```
-ofxOMXPlayer
-```
+* [openFrameworks](https://openframeworks.cc/) - Used to build simulacraViewer
+* [ofxOMXPlayer](https://github.com/jvcleave/ofxOMXPlayer) - For smoothly playing back video on Raspberry Pi
 
 ## Running simulacraMaster
 
@@ -60,12 +60,7 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Processing](https://processing.org/) - Used for simulacraMaster
-* [openFrameworks](https://openframeworks.cc/) - Used for simulacraViewer
-* [Blender](https://www.blender.org/) - Used to render the OBJ sequences
-* [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ) - For importing OBJ sequences into Blender
 
 ## Contributing
 
@@ -73,7 +68,7 @@ Feel free to reach out if you are interested in contributing.
 
 ## Authors
 
-* **Lior Ben-Gai** - *Initial boilerplate*
+* **Lior Ben Gai** - *Initial boilerplate*
 * **Joseph Rodrigues Marsh** - *Ongoing development*
 
 ## Acknowledgments

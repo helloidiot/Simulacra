@@ -4,37 +4,41 @@ MA Computational Art final project.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+For ‘simulacraMaster’, simply place the folder in your Processing working folder and build.
+For ‘simulacraViewer’, copy the contents of ofApp.h, ofApp.cpp and Main.h into a new project. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+simulacraMaster;
 
 ```
-Give examples
+peasyCam
+controlP5
+Nervous System OBJ Exporter
+Toxiclibs Grey Scott
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+simulacraViewer;
 
 ```
-Give the example
+ofxOMXPlayer
 ```
 
-And repeat
+## Running simulacraMaster
+
+First select a shape to create in setup() by setting the corresponding boolean to 'true'
 
 ```
-until finished
+hyperbolic = true;
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Select an update function in the Vert class by uncommenting the function desired.
 
-## Running the tests
+```
+// position = PVector.add(initPosition, getSimplexMod(i) );
+```
 
-Explain how to run the automated tests for this system
+Play with the GUI controls in order to create interesting behaviours
 
 ### Break down into end to end tests
 

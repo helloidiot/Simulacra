@@ -8,11 +8,11 @@ Simulacra is a series of procedurally generated digital artefacts which aestheti
 
 ### simulacraMaster
 
-A Processing sketch to playfully create looping 3D animations with simplex noise. Simply place the folder in your Processing working folder and build.
+A Processing sketch to playfully create looping 3D animations with simplex noise. Place the ‘simulacraMaster’ in your Processing working folder and build.
 
 ### simulacraViewer
 
-An openFrameworks app for autonomously presenting the rendered works in an exhibition environment via Raspberry Pi. To run, make sure the openFrameworks examples compile correctly on the Pi, then simply copy the contents of ofApp.h, ofApp.cpp and Main.h into a new project. 
+An openFrameworks app for autonomously presenting the rendered works in an exhibition environment via Raspberry Pi. To run, make sure the openFrameworks examples compile correctly on the Pi, then copy the contents of ofApp.h, ofApp.cpp and Main.h into a new project. 
 
 ## Dependencies
 

@@ -4,8 +4,6 @@
 
 Simulacra is a series of procedurally generated digital artefacts which aestheticise the body through fleshy materials and intestinal textures. By exploring the human connection with the soft and somatic, Simulacra embraces the grotesque, where once rigid non-human forms bulge and undulate in seamless and satisfyingly endless loops. 
 
-![hips](https://github.com/helloidiot/Simulacra/blob/master/imgs/hips.gif)  <!-- .element height=“25%” width=“20%" -->
-
 ## Getting Started
 
 ### simulacraMaster

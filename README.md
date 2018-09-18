@@ -8,7 +8,7 @@ Simulacra is a series of procedurally generated digital artefacts which aestheti
 
 ### simulacraMaster
 
-A Processing sketch to playfully create looping 3D animations with simplex noise. Place the ‘simulacraMaster’ in your Processing working folder and build.
+A Processing sketch to playfully create looping 3D animations with simplex noise. Place the ‘simulacraMaster’ folder within your Processing working folder and build.
 
 ### simulacraViewer
 

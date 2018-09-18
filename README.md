@@ -49,7 +49,25 @@ position = PVector.add(initPosition, getSimplexMod(i) );
 
 Play with the GUI controls in order to create interesting behaviours
 
-See comments for more detailed instruction
+For Model, ModelSequence, ImgReader and ImgSequence class, sources and sequences should be placed within the data folder
+
+```
+/data/[name of model sequence]/
+```
+
+With classes updated with the desired name
+
+```
+String sequenceName = “[Name of sequence]”;
+```
+
+For sequence classes, files should be number sequentially
+
+```
+‘0.obj’, ‘1.obj’ … ‘100.obj’ etc.
+```
+
+See comments  within each class for more detailed instruction
 
 ## Running simulacraViewer
 
@@ -73,11 +91,6 @@ See comments for more detailed instruction
 
 Note this will not compile in OSX.
 
-
-## Contributing
-
-Feel free to reach out if you are interested in contributing.
-
 ## Authors
 
 * **Lior Ben Gai** - *Initial boilerplate*
@@ -89,3 +102,20 @@ Feel free to reach out if you are interested in contributing.
 * Theo Papatheodorou
 * Etienne Jacob for the [looping simplex noise algorithm](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/)
 * Daniel Shiffman for meshing 3D [spherical geometries](https://www.youtube.com/watch?v=m8WhMeW8jj0)
+
+## Contributing
+
+Feel free to reach out if you are interested in contributing.
+
+## To Do
+
+* Intuitive, GUI based way of choosing forms / modulators
+* Instantiating and combining multiple forms / modulators
+* Data-driven modulators as opposed to just noise
+* Make use of threading to improve frame rates (specifically with Model / ModelSequence class)
+* Implement Skylight renderer
+
+
+
+
+
